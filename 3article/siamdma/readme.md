@@ -5,11 +5,12 @@
 
 1.Put it in any folder,for me , I named one folder as dbpath。
 The folder structure is：
+'''
     dbpath  /   dataset1
-    
             /   dataset2
-            
             /   ...
+'''
+
             
 [got10k]链接: https://pan.baidu.com/s/1Zd1OnGZeH4koA3z6Usx3Bg  密码: tmjh
 
