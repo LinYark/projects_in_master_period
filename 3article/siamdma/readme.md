@@ -1,7 +1,7 @@
 
-# Run on the latest version of pytorch
+# 1.Run on the latest version of pytorch
 
-# prepare training dataset
+# 2.prepare training dataset
 
 1.Put it in any folder,for me , I named one folder as dbpath。
 The folder structure is：
@@ -37,23 +37,34 @@ python data/prepareDataStanderd/prepareDATAGOT10K.py
 
 
 
-# prepare pretrain_models 
+# 3.prepare pretrain_models 
+```
 [pretrain_models]链接: https://pan.baidu.com/s/1Xqp38CrO5NZ-RSITONUyNg  密码: t7ar
+```
+
 put it in ./
 
 
-# training
+# 4.training
 use ./bin/train.py to train our model
 Pay attention to modifying the dbpath and jsonpath  
-
+```
 python bin/train.py
+```
 
-# eval
+
+# 5.eval
+```
 python bin/eval.py
+```
 
-# logger & lmdb & visdom 
+# 6.logger & lmdb & visdom 
 They are already embedded in the framework
+
 logger in ./util/funcs.py
+
 lmdb in each prepareDataStanderd files
+
 visdom in ./util/funcs.py
+
 You can adjust the program to use them
