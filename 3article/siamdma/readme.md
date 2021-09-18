@@ -20,18 +20,22 @@ The folder structure is：
 ```
 
 
-
-
 2.Data standardization processing
 Use the following python files to complete processing
 Pay attention to modifying input and output in those files
+```
 .(siamdma)  /   data    /   prepareDataStanderd /
                                 prepareDATAGOT10K.py
                                 preparedataGTOT.py
                                 ...
-
+                                
 python data/prepareDataStanderd/prepareDATAGOT10K.py
 ...
+
+```
+
+
+
 
 # prepare pretrain_models 
 [pretrain_models]链接: https://pan.baidu.com/s/1Xqp38CrO5NZ-RSITONUyNg  密码: t7ar
