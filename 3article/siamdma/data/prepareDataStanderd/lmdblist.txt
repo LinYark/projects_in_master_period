@@ -1,8 +1,0 @@
-got10k:60   
-got10kval:1
-lasot:150
-lasotmini:30
-gtot:5
-rgbt1:10
-rgbt2:10
-rgbt234:20
