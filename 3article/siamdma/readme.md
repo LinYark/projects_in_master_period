@@ -22,7 +22,7 @@ If you have any questions, please email me : he_fengchen@qq.com
 </div>
 2.LasHeR
 <div align="center">
-  <img src="demo/lasher.jpg" width="1280px" />
+  <img src="demo/lasher.png" width="1280px" />
 </div>
 
 # The structures of SIAMDMA
