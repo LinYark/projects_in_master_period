@@ -17,6 +17,28 @@ UAV Locking Strike System
 SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT Tracking
 
 应用于双模态跟踪的双级多域融合注意力孪生网络
+3.1Examples of SiamDMA outputs.
+
+1.section1
+<div align="center">
+  <img src="3article/siamdma/demo/Section1.gif" width="1280px" />
+</div>
+2.section2
+<div align="center">
+  <img src="3article/siamdma/demo/Section2.gif" width="1280px" />
+</div>
+
+3.2 Compare with those sota RGBT trackers.
+
+1.GTOT
+<div align="center">
+  <img src="3article/siamdma/demo/GTOT1.jpg" width="1280px" />
+  <img src="3article/siamdma/demo/GTOT2.jpg" width="1280px" />
+</div>
+2.LasHeR
+<div align="center">
+  <img src="3article/siamdma/demo/lasher.png" width="1280px" />
+</div>
 
 
 
