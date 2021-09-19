@@ -1,5 +1,8 @@
 
 # SiamDMA 
+HeFengchen
+If you have any questions, please email me : he_fengchen@qq.com
+
 
 # Examples of SiamDMA outputs.
 1.section1
@@ -96,7 +99,7 @@ python bin/eval.py
 It will be updated soon, before October.
 
 
-# 6.logger & lmdb & visdom 
+# 7.logger & lmdb & visdom 
 They are already embedded in the framework
 
 logger in ./util/funcs.py
