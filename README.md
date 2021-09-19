@@ -8,6 +8,18 @@ Intelligent automated welding production line vision system.
 
 智能自动化焊接生产线视觉系统
 
+1.1Examples of welding
+Welding results after the program is run
+<div align="center">
+  <img src="1project/demo/welding.gif" width="1280px" />
+</div>
+
+1.2Program running process
+Program running process
+<div align="center">
+  <img src="1project/demo/overall processing.gif" width="1280px" />
+</div>
+
 # 2project  
 UAV Locking Strike System
 
