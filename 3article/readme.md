@@ -10,7 +10,7 @@ It's the original version of the paper.
 
 <div align="center">
   <p>The overall structure of SIAMDMA</p>
-  <img src="siamdma/SiamDMA.png" width="1280px" />
+  <img src="demo/SiamDMA.png" width="1280px" />
 
   <p>Cross Domain Siamese Attention Module</p>
   <img src="demo/CrossDomainModule.png" width="1280px" />
