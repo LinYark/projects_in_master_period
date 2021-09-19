@@ -1,7 +1,11 @@
 # Intelligent automated welding production line vision system.
+
 智能自动化焊接生产线视觉系统
 
+ 
+
 NJUST2+3 is the project file at that time. Based on linux system and Qt platform implementation.
+
 NJUST2+3 即为当时的工程文件。基于linux系统,Qt平台实现。
 
 # Principle
