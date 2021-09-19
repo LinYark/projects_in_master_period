@@ -27,6 +27,8 @@ This is a temporary repository established when looking for a job. Store some sc
 
 这是找工作时暂时建立的一个存放库。存放一些示意信息。仍在建设中。
 
+
+
 0919
 
 When I interviewed Dahua Company on September 18, the HR told me not to fill the GITHUB link if there was just some schematic information.
