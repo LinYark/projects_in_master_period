@@ -6,16 +6,18 @@ It's the code corresponding to the paper.
 # siamdma.pdf. 
 It's the original version of the paper.
 
-
-
+# The structures of SIAMDMA
+1.The overall structure of SIAMDMA
 <div align="center">
-  <p>The overall structure of SIAMDMA</p>
   <img src="demo/SiamDMA.png" width="1280px" />
+</div>
 
-  <p>Cross Domain Siamese Attention Module</p>
-  <img src="demo/CrossDomainModule.png" width="1280px" />
-
-  <p>Dual-Level Fusion Attention Module</p>
+2.Cross Domain Siamese Attention Module
+<div align="center">
   <img src="demo/CrossDomainModule.png" width="1280px" />
 </div>
 
+3.Dual-Level Fusion Attention Module
+<div align="center">
+  <img src="demo/DualLevelModule.png" width="1280px" />
+</div>
