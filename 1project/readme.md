@@ -14,7 +14,6 @@ In 2020s, we relied on this project to participate in the research competition, 
 Specific information can be found [here](https://pan.baidu.com/s/1PuQ9nNzDlcY0jpMucEI9Bw), key is y1za.
 
 当时有依托这个项目参加研电赛，有参与写过相应详细的技术论文和演示ppt。具体百度云链接：
-
 链接：https://pan.baidu.com/s/1PuQ9nNzDlcY0jpMucEI9Bw 
 提取码：y1za 
 
