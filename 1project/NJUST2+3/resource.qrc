@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/arrow.png</file>
+        <file>image/start.png</file>
+        <file>image/camera.png</file>
+        <file>image/camera_off.png</file>
+        <file>image/arrow_down.png</file>
+        <file>image/arrow_up.png</file>
+        <file>image/Character.png</file>
+        <file>image/delete.png</file>
+        <file>image/check.png</file>
+        <file>image/arrow_left.png</file>
+        <file>image/arrow_right.png</file>
+        <file>image/redo.png</file>
+        <file>image/point4ds_txt2.txt</file>
+    </qresource>
+</RCC>

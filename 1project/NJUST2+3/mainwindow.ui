@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>组立智能焊接系统</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_picBox" native="true"/>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_3d" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>正在匹配</string>
+           </property>
+           <property name="scaledContents">
+            <bool>false</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_longmen" native="true"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>控制</string>
+    </property>
+    <addaction name="act_Option"/>
+    <addaction name="act_Test"/>
+    <addaction name="separator"/>
+    <addaction name="act_quit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>校验</string>
+    </property>
+    <addaction name="act_Del"/>
+    <addaction name="act_Character"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="act_Register"/>
+    <addaction name="act_abort"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="act_Option"/>
+   <addaction name="separator"/>
+   <addaction name="act_Del"/>
+   <addaction name="act_Character"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="dockWidget_2">
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPlainTextEdit" name="textEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="act_Option">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/start.png</normaloff>:/image/start.png</iconset>
+   </property>
+   <property name="text">
+    <string>开始检测</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="act_Del">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/delete.png</normaloff>:/image/delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="act_Character">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/Character.png</normaloff>:/image/Character.png</iconset>
+   </property>
+   <property name="text">
+    <string>校验字符</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="act_examine_char_complete">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/check.png</normaloff>:/image/check.png</iconset>
+   </property>
+   <property name="text">
+    <string>完成字符校验</string>
+   </property>
+  </action>
+  <action name="act_send">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/redo.png</normaloff>:/image/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>P焊缝发送</string>
+   </property>
+   <property name="toolTip">
+    <string>P焊缝发送</string>
+   </property>
+  </action>
+  <action name="act_quit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="act_abort">
+   <property name="text">
+    <string>关于...</string>
+   </property>
+  </action>
+  <action name="act_Test">
+   <property name="text">
+    <string>压力测试</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>测试</string>
+   </property>
+  </action>
+  <action name="act_Register">
+   <property name="text">
+    <string>软件注册...</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>act_quit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
