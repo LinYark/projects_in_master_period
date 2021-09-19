@@ -21,7 +21,7 @@ Specific information can be found [here](https://pan.baidu.com/s/1PuQ9nNzDlcY0jp
 The following will illustrate all the steps
 
 # step1.photoing
-龙门架携带导轨拍摄工件
+龙门架在导轨上平移，携带相机拍摄工件
 <div align="center">
   <img src="demo/photoing.gif" width="1280px" />
 </div>
