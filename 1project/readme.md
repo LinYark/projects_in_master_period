@@ -18,6 +18,7 @@ Specific information can be found [here](https://pan.baidu.com/s/1PuQ9nNzDlcY0jp
 提取码：y1za 
 
 # All steps
+The following will illustrate all the steps
 
 # step1.photoing
 龙门架携带导轨拍摄工件
