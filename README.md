@@ -29,7 +29,7 @@ SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT T
   <img src="3article/siamdma/demo/Section2.gif" width="1280px" />
 </div>
 
-3.2 Compare with those sota RGBT trackers.
+3.2 Compare with those SOTA RGBT trackers.
 
 1.GTOT
 <div align="center">
