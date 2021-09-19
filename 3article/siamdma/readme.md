@@ -62,13 +62,12 @@ The folder structure is：
 Use the following python files to complete processing
 Pay attention to modifying input and output in those files
 ```
-.(siamdma)  /   data    /   prepareDataStanderd /
-                                prepareDATAGOT10K.py
-                                preparedataGTOT.py
-                                ...
+.(siamdma)/data/prepareDataStanderd /prepareDATAGOT10K.py
+                                     preparedataGTOT.py
+                                     ...
                                 
 python data/prepareDataStanderd/prepareDATAGOT10K.py
-...
+                                ...
 
 ```
 
@@ -80,7 +79,7 @@ python data/prepareDataStanderd/prepareDATAGOT10K.py
 [pretrain_models]链接: https://pan.baidu.com/s/1Xqp38CrO5NZ-RSITONUyNg  密码: t7ar
 ```
 
-put it in ./
+put it in ./ 
 
 
 # 4.training
@@ -89,16 +88,22 @@ Pay attention to modifying the dbpath and jsonpath
 ```
 python bin/train.py
 ```
+You can modify warmUp mode and the corresponding learning rate
 
 
 # 5.eval
 ```
 python bin/eval.py
 ```
+If you need matlab evaluation version of GTOT, RGBT234, LasHeR, please email me.
+
+Note that if you need the latest review version of LasHeR, please contact the original author [here](https://arxiv.org/pdf/2104.13202.pdf). I don't know if the original author added any new changes.
+
+
 
 # 6.test
 It will be updated soon, before October.
-
+I am looking for a job recently, so I didn't make up this link.
 
 # 7.logger & lmdb & visdom 
 They are already embedded in the framework
