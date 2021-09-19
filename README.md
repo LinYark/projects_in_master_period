@@ -3,7 +3,7 @@ Graduate stage part of the works introduction, in order to let HR or readers can
 
 毕业阶段部分作品介绍，为了让HR或者读者可以简单的了解一下我。
 
-# 1project  
+# 1.project  
 Intelligent automated welding production line vision system.
 
 智能自动化焊接生产线视觉系统
@@ -20,12 +20,12 @@ Program running process
   <img src="1project/demo/overall processing.gif" width="1280px" />
 </div>
 
-# 2project  
+# 2.project  
 UAV Locking Strike System
 
 无人机定点抛投打击系统
 
-# 3article  
+# 3.article  
 SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT Tracking
 
 应用于双模态跟踪的双级多域融合注意力孪生网络
