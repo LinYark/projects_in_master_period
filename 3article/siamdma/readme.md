@@ -104,6 +104,8 @@ You can modify warmUp mode and the corresponding learning rate
 ```
 python bin/eval.py
 ```
+There is a simple hyperparameter search.
+
 If you need matlab evaluation version of GTOT, RGBT234, LasHeR, please email me.
 
 Note that if you need the latest review version of LasHeR, please contact the original author [here](https://arxiv.org/pdf/2104.13202.pdf). I don't know if the original author added any new changes.
