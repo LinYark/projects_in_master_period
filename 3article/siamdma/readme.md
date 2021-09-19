@@ -17,12 +17,12 @@ If you have any questions, please email me : he_fengchen@qq.com
 # Compare with those sota RGBT trackers.
 1.GTOT
 <div align="center">
-  <img src="demo/GTOT1.gif" width="1280px" />
-  <img src="demo/GTOT2.gif" width="1280px" />
+  <img src="demo/GTOT1.jpg" width="1280px" />
+  <img src="demo/GTOT2.jpg" width="1280px" />
 </div>
 2.LasHeR
 <div align="center">
-  <img src="demo/lasher.gif" width="1280px" />
+  <img src="demo/lasher.jpg" width="1280px" />
 </div>
 
 # The structures of SIAMDMA
