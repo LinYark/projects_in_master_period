@@ -2,12 +2,6 @@
 
 智能自动化焊接生产线视觉系统
 
- 
-
-NJUST2+3 is the project file at that time. Based on linux system and Qt platform implementation.
-
-NJUST2+3 即为当时的工程文件。基于linux系统,Qt平台实现。
-
 ```
 项目简介：
     本系统基于 Linux 系统、Qt 平台，旨在全自动完成金属工件的自动化焊接。
@@ -25,6 +19,12 @@ NJUST2+3 即为当时的工程文件。基于linux系统,Qt平台实现。
     d.合并完成的点云与对应真实点云的配准算法。
     e.Qt 程序的部分图形化操作界面。
 ```
+
+# NJUST2+3
+NJUST2+3 is the project file at that time. Based on linux system and Qt platform implementation.
+
+NJUST2+3 即为当时的工程文件。基于linux系统,Qt平台实现。
+
 # code root explain
 文件结构简要解释
 ```
