@@ -51,6 +51,11 @@ The following will illustrate all the steps
 </div>
 
 # Processing analysis
+
+# Processing1.Flow chart of each part
+各部分流程图
 <div align="center">
-  <img src="demo/processing.png" width="1280px" />
+  <img src="demo/alogithm.png" width="1280px" />
 </div>
+
+
