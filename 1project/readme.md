@@ -86,9 +86,9 @@ The following will illustrate all the steps
 <div align="center">
   <img src="demo/future.gif" width="1280px" />
 </div>
-
+# 
 # Processing analysis
-具体流程、模块分析
+具体模块流程、原理分析
 # Processing1.Flow chart of each part
 各部分流程图
 <div align="center">
