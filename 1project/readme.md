@@ -35,7 +35,25 @@ NJUST2+3/
    ...(程序图形化操作界面以及通信所需源码)
 ```
 
-# Principle
+
+
+
+# Processing analysis
+具体模块流程、原理分析
+
+# Processing1.Flow chart of each part
+各部分流程图
+<div align="center">
+  <img src="demo/processing.png" width="1280px" />
+</div>
+
+# Processing2.Underlying algorithm
+各部分原理图
+<div align="center">
+  <img src="demo/alogithm.png" width="1280px" />
+</div>
+
+# Processing3.source
 该项目原理word介绍与演示ppt可以从以下链接获取。
 
 In 2020s, we relied on this project to participate in the research competition, and I participated in writing corresponding detailed technical papers and demonstration ppt.
@@ -85,19 +103,5 @@ The following will illustrate all the steps
 使用场景示意，龙门架在导轨上扫面整个视场，携带的相机拍摄工件图片，程序处理后返回焊点坐标，龙门机器人依据坐标焊接。
 <div align="center">
   <img src="demo/future.gif" width="1280px" />
-</div>
-# 
-# Processing analysis
-具体模块流程、原理分析
-# Processing1.Flow chart of each part
-各部分流程图
-<div align="center">
-  <img src="demo/processing.png" width="1280px" />
-</div>
-
-# Processing2.Underlying algorithm
-各部分流程图
-<div align="center">
-  <img src="demo/alogithm.png" width="1280px" />
 </div>
 
