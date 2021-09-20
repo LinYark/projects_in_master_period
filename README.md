@@ -27,6 +27,13 @@ UAV Locking Strike System
 
 无人机定点抛投打击系统
 
+2.1Throwing effect 定点抛投效果演示
+
+Program running process
+<div align="center">
+  <img src="2project/demo/throwing.gif" width="1280px" />
+</div>
+
 # 3.article  
 SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT Tracking
 
