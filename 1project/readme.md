@@ -61,6 +61,6 @@ The following will illustrate all the steps
 # Processing2.Underlying algorithm
 各部分流程图
 <div align="center">
-  <img src="demo/aliogithm.png" width="1280px" />
+  <img src="demo/alogithm.png" width="1280px" />
 </div>
 
