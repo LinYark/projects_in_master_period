@@ -105,13 +105,13 @@ The following will illustrate all the steps
 
 使用到了1.图像分割模块、2.轮廓提取模块、3.字符检测模块、4.工件合并模块、5、工件配准模块。
 <div align="center">
-  <img src="demo/Throwing.gif" width="1280px" />
+  <img src="demo/Throwing.gif" width="320px" />
 </div>
 
 # step3.Throwing attack effect定点打击效果
 程序控制无人机飞至目标上方，并快速降落至目标的定点打击效果
 
 <div align="center">
-  <img src="demo/Locking landing.gif" width="1280px" />
+  <img src="demo/Locking landing.gif" width="320px" />
 </div>
 
