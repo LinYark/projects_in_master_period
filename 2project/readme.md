@@ -20,6 +20,7 @@
 ```
 
 # Directory structure explanation文件结构简要解释
+
 # v132：
 最开始构建该项目所使用的代码。可正常使用。
 不过缺点有：
@@ -49,16 +50,19 @@
 
 # Processing analysis具体模块流程、原理分析
 具体模块流程、原理分析
+
 # Processing1.Flow chart of each part各部分流程图
 各部分流程图
 <div align="center">
   <img src="demo/processing.png" width="1280px" />
 </div>
+
 # Processing2.Underlying algorithm各部分原理图
 各部分原理图
 <div align="center">
   <img src="demo/alogithm.png" width="1280px" />
 </div>
+
 # Processing3.source可获取的更多信息
 该项目原理word介绍与演示ppt可以从以下链接获取。
 
