@@ -1,4 +1,4 @@
-# UAV Locking Strike System
+# UAV Locking Strike System无人机定点抛投打击系统
 无人机定点抛投打击系统
 
 ```
@@ -19,8 +19,8 @@
         e.针对多机多目标的集群分配打击算法。
 ```
 
-# Directory structure explanation
-# v132
+# Directory structure explanation文件结构简要解释
+# v132：
 最开始构建该项目所使用的代码。可正常使用。
 不过缺点有：
 
@@ -47,4 +47,67 @@
 
 修改对应条目3：将能解耦的代码解耦，新增代码尽量闭合源码。
 
+# Processing analysis具体模块流程、原理分析
+具体模块流程、原理分析
+# Processing1.Flow chart of each part各部分流程图
+各部分流程图
+<div align="center">
+  <img src="demo/processing.png" width="1280px" />
+</div>
+# Processing2.Underlying algorithm各部分原理图
+各部分原理图
+<div align="center">
+  <img src="demo/alogithm.png" width="1280px" />
+</div>
+# Processing3.source可获取的更多信息
+该项目原理word介绍与演示ppt可以从以下链接获取。
 
+In 2020s, we relied on this project to participate in the research competition, and I participated in writing corresponding detailed technical papers and demonstration ppt.
+Specific information can be found [here](https://pan.baidu.com/s/1PuQ9nNzDlcY0jpMucEI9Bw), key is y1za.
+
+当时有依托这个项目参加研电赛，有参与写过相应详细的技术论文和演示ppt。具体百度云链接：
+链接：https://pan.baidu.com/s/1PuQ9nNzDlcY0jpMucEI9Bw 
+提取码：y1za 
+
+
+# All steps实际运行流程
+The following will illustrate all the steps
+以下演示该项目实际运行流程
+
+# step1.photoing拍摄
+龙门架在导轨上平移，携带相机拍摄工件
+
+使用的了通信模块
+<div align="center">
+  <img src="demo/photoing.gif" width="1280px" />
+</div>
+
+# step2.Program running程序处理
+程序对拍摄的的工件就行处理
+
+使用到了1.图像分割模块、2.轮廓提取模块、3.字符检测模块、4.工件合并模块、5、工件配准模块。
+<div align="center">
+  <img src="demo/overall processing.gif" width="1280px" />
+</div>
+
+# step3.matching配准
+工件点云合并好的匹配流程
+
+这是step2中的匹配片段，但具有代表性，故将其独立处理
+<div align="center">
+  <img src="demo/match.gif" width="1280px" />
+</div>
+
+# step4.welding焊接
+机械依照程序计算的结果进行焊接
+
+焊接示意
+<div align="center">
+  <img src="demo/welding.gif" width="1280px" />
+</div>
+
+# step5.Usage hint使用场景示意
+使用场景示意，龙门架在导轨上扫面整个视场，携带的相机拍摄工件图片，程序处理后返回焊点坐标，龙门机器人依据坐标焊接。
+<div align="center">
+  <img src="demo/future.gif" width="1280px" />
+</div>
