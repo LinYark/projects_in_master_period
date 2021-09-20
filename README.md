@@ -8,13 +8,15 @@ Intelligent automated welding production line vision system.
 
 智能自动化焊接生产线视觉系统
 
-1.1Examples of welding
+1.1Examples of welding 焊接结果演示
+
 Welding results after the program is run
 <div align="center">
   <img src="1project/demo/welding.gif" width="1280px" />
 </div>
 
-1.2Program running process
+1.2Program running process 程序运行演示
+
 Program running process
 <div align="center">
   <img src="1project/demo/overall processing.gif" width="1280px" />
@@ -30,13 +32,13 @@ SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT T
 
 应用于双模态跟踪的双级多域融合注意力孪生网络
 
-3.1Examples of SiamDMA outputs.
+3.1Examples of SiamDMA outputs.SiamDMA的跟踪效果
 
-1.section1
+1.section1片段1
 <div align="center">
   <img src="3article/siamdma/demo/Section1.gif" width="1280px" />
 </div>
-2.section2
+2.section2片段2
 <div align="center">
   <img src="3article/siamdma/demo/Section2.gif" width="1280px" />
 </div>
