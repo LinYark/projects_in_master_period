@@ -29,9 +29,9 @@ UAV Locking Strike System
 
 2.1Throwing effect 定点抛投效果演示
 
-Program running process
+Locking 1Throwing effect
 <div align="center">
-  <img src="2project/demo/Throwing.gif" width="1280px" />
+  <img src="2project/demo/Throwing.gif" width="320px" />
 </div>
 
 # 3.article  
