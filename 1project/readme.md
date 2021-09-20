@@ -8,6 +8,33 @@ NJUST2+3 is the project file at that time. Based on linux system and Qt platform
 
 NJUST2+3 即为当时的工程文件。基于linux系统,Qt平台实现。
 
+```
+项目简介：
+    本系统基于 Linux 系统、Qt 平台，旨在全自动完成金属工件的自动化焊接。
+    1.多个相机并行情况下，利用图像分割算法、边缘检测算法提取工件 2D 特征位置。
+    2.通过手眼转换将 2D 特征位置至焊接机器臂坐标系下形成 3D 点云。
+    3.在该坐标系下对各个时间戳拍摄到的点云按连通方式合并，获取单工件的特征点云。
+    4.应用字符识别提取工件名称，获取库中对应工件的对应真实点云。
+    5.最后对真实与拍摄的点云进行配准，求取工件的焊接部位真实位置。
+项目所需技能：
+    Qt、c++、opencv、matlab、深度学习。
+个人工作：
+    a.调用相机、机械臂 API。标定并统一坐标系。
+    b.图像处理程序。基于深度学习的轻量化 ERFNet 图像分割。
+    c.针对 3D 点云数据设计点云合并算法。
+    d.合并完成的点云与对应真实点云的配准算法。
+    e.Qt 程序的部分图形化操作界面。
+```
+# code root explain
+文件结构简要解释
+```
+NJUST2+3/
+   camera(basler相机调用sample)
+   compute(被imageprocessing调用，以前版本的源码)
+   imageprocessing(现行代码部分，包含分割、轮廓提取、字符识别、点云合并、配准)
+   ...(程序图形化操作界面以及通信所需源码)
+```
+
 # Principle
 
 In 2020s, we relied on this project to participate in the research competition, and I participated in writing corresponding detailed technical papers and demonstration ppt.
