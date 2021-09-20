@@ -21,7 +21,7 @@
 ```
 
 
-# code root explain文件结构简要解释
+# Directory structure explanation文件结构简要解释
 文件结构简要解释
 
 NJUST2+3 is the project file at that time. Based on linux system and Qt platform implementation.
