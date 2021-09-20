@@ -31,7 +31,7 @@ UAV Locking Strike System
 
 Program running process
 <div align="center">
-  <img src="2project/demo/throwing.gif" width="1280px" />
+  <img src="2project/demo/Throwing.gif" width="1280px" />
 </div>
 
 # 3.article  
