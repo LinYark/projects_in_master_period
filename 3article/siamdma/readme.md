@@ -3,6 +3,13 @@
 
 If you have any questions, please email me : he_fengchen@qq.com
 
+```
+本方法基于 linux 系统，pytorch 框架，旨在引入红外模态提升跟踪器性能。
+1.依照 self-attention，适配在跨模态跨时域场景，形成跨模孪生 attention，微调跟踪模板，实现特征增强。
+2 增加可见光和红外模态的单独分类约束，避免陷入预训练时的局部最优。
+3.结合分类结果与双模特征，从特征级和决策级共同决定合并特征的重要程度。
+4 通过 anchor-free 方式回归当前帧的目标所在位置。分类使用交叉熵 loss，回归使用iouloss。
+```
 
 # Examples of SiamDMA outputs.
 1.section1
