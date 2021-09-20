@@ -49,7 +49,12 @@ NJUST2+3/
 # Processing analysis具体模块流程、原理分析
 具体模块流程、原理分析
 
-# Processing1.Flow chart of each part各部分流程图
+# Processing1.Flow chart of each part整体及各部分流程图
+整体流程
+<div align="center">
+  <img src="demo/allprocess.png" width="1280px" />
+</div>
+
 各部分流程图
 <div align="center">
   <img src="demo/processing.png" width="1280px" />
