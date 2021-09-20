@@ -18,6 +18,13 @@
         d.基于相关滤波与基于深度学习的双模 SiamDMA 目标跟踪算法。
         e.针对多机多目标的集群分配打击算法。
 ```
+以下将为有三个部分的说明，分别是：
+
+1.Directory structure explanation文件结构简要解释
+
+2.Processing analysis具体模块流程、原理分析
+
+3.All steps实际运行流程
 
 # Directory structure explanation文件结构简要解释
 
