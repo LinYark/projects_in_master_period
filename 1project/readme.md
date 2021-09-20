@@ -36,6 +36,7 @@ NJUST2+3/
 ```
 
 # Principle
+该项目原理word介绍与演示ppt可以从以下链接获取。
 
 In 2020s, we relied on this project to participate in the research competition, and I participated in writing corresponding detailed technical papers and demonstration ppt.
 Specific information can be found [here](https://pan.baidu.com/s/1PuQ9nNzDlcY0jpMucEI9Bw), key is y1za.
@@ -46,39 +47,48 @@ Specific information can be found [here](https://pan.baidu.com/s/1PuQ9nNzDlcY0jp
 
 # All steps
 The following will illustrate all the steps
+以下介绍该项目运行流程
 
 # step1.photoing
 龙门架在导轨上平移，携带相机拍摄工件
+
+使用的了通信模块
 <div align="center">
   <img src="demo/photoing.gif" width="1280px" />
 </div>
 
 # step2.Program running
 程序对拍摄的的工件就行处理
+
+使用到了1.图像分割模块、2.轮廓提取模块、3.字符检测模块、4.工件合并模块、5、工件配准模块。
 <div align="center">
   <img src="demo/overall processing.gif" width="1280px" />
 </div>
 
 # step3.matching
 工件点云合并好的匹配流程
+
+这是step2中的匹配片段，但具有代表性，故将其独立处理
 <div align="center">
   <img src="demo/match.gif" width="1280px" />
 </div>
 
 # step4.welding
 机械依照程序计算的结果进行焊接
+
+焊接示意
 <div align="center">
   <img src="demo/welding.gif" width="1280px" />
 </div>
 
 # step5.Usage hint
-使用场景示意
+使用场景示意，龙门架在导轨上扫面整个视场，携带的相机拍摄工件图片，程序处理后返回焊点坐标，龙门机器人依据坐标焊接。
 <div align="center">
   <img src="demo/future.gif" width="1280px" />
 </div>
 
 # Processing analysis
-
+具体流程、模块分析
 # Processing1.Flow chart of each part
 各部分流程图
 <div align="center">
