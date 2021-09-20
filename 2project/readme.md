@@ -65,8 +65,11 @@
 </div>
 
 整体流程图
-<div align="center">
+<div align="left">
   <img src="demo/allprocess.png" width="640px" />
+</div>
+<div align="right">
+  <img src="demo/allprocess1.png" width="640px" />
 </div>
 
 # Processing2.Underlying algorithm各部分原理图
