@@ -20,6 +20,13 @@
     e.Qt 程序的部分图形化操作界面。
 ```
 
+以下将为有三个部分的说明，分别是：
+
+1.Directory structure explanation文件结构简要解释
+
+2.Processing analysis具体模块流程、原理分析
+
+3.All steps实际运行流程
 
 # Directory structure explanation文件结构简要解释
 文件结构简要解释
