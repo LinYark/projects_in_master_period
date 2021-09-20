@@ -52,5 +52,5 @@ The following will illustrate all the steps
 
 # Processing analysis
 <div align="center">
-  <img src="demo/processing.gif" width="1280px" />
+  <img src="demo/processing.png" width="1280px" />
 </div>
