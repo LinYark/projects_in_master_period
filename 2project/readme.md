@@ -95,7 +95,6 @@ The following will illustrate all the steps
 # step1.Program running effect 程序全程跟踪检测效果
 无人机随航线飞行至目标上方50米区域寻找目标，找到目标后，向目标飞行，利用检测与跟踪的耦合算法持续锁定打击目标，飞至上方完成抛投或定点打击后返航。
 
-使用的了通信模块
 <div align="center">
   <img src="demo/photoing.gif" width="1280px" />
 </div>
