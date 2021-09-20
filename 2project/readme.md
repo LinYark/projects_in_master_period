@@ -73,18 +73,19 @@
 # Processing2.Underlying algorithm各部分原理图
 各部分原理图
 <div align="center">
-  <img src="demo/alogithm.png" width="1280px" />
+  <img src="demo/method.png" width="1280px" />
 </div>
 
 # Processing3.source可获取的更多信息
 该项目原理word介绍与演示ppt可以从以下链接获取。
 
 In 2020s, we relied on this project to participate in the research competition, and I participated in writing corresponding detailed technical papers and demonstration ppt.
-Specific information can be found [here](https://pan.baidu.com/s/1PuQ9nNzDlcY0jpMucEI9Bw), key is y1za.
+Specific information can be found [here](https://pan.baidu.com/s/1nkvOiiUvk2WZnTMnjLa57g), key is idah.
+
 
 当时有依托这个项目参加研电赛，有参与写过相应详细的技术论文和演示ppt。具体百度云链接：
-链接：https://pan.baidu.com/s/1PuQ9nNzDlcY0jpMucEI9Bw 
-提取码：y1za 
+链接：https://pan.baidu.com/s/1nkvOiiUvk2WZnTMnjLa57g 
+提取码：idah 
 
 
 # All steps实际运行流程
