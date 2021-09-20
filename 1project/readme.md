@@ -49,3 +49,8 @@ The following will illustrate all the steps
 <div align="center">
   <img src="demo/future.gif" width="1280px" />
 </div>
+
+# Processing analysis
+<div align="center">
+  <img src="demo/processing.gif" width="1280px" />
+</div>
