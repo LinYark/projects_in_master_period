@@ -3,6 +3,11 @@ Graduate stage part of the works introduction, in order to let HR or readers can
 
 毕业阶段部分作品介绍，为了让HR或者读者可以简单的了解一下我。
 
+以下会介绍：
+```
+
+```
+
 # 1.project  
 Intelligent automated welding production line vision system.
 
