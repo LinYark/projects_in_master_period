@@ -5,7 +5,7 @@ Graduate stage part of the works introduction, in order to let HR or readers can
 
 Email: he_fengchen@qq.com
 
-以下会介绍：
+以下内容分为三部分介绍：
 ```
 1project
     智能自动化焊接生产线视觉系统
