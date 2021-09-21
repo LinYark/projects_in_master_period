@@ -66,11 +66,11 @@
 
 简要流程图
 <div align="left">
-  <img src="demo/mainprocess.png" width="640" />
+  <img src="demo/mainprocess.png" width="1280px" />
 </div>
 具体流程图
 <div align="left">
-  <img src="demo/allprocess.png" width="640" />
+  <img src="demo/allprocess.png" width="640px" />
 </div>
 
 # Processing2.Underlying algorithm各部分原理图
