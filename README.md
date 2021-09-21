@@ -66,7 +66,7 @@ Locking 1Throwing effect
 无人机随航线飞行至目标上方50米区域寻找目标，找到目标后，向目标飞行，利用检测与跟踪的耦合算法持续锁定打击目标，飞至上方完成抛投或定点打击后返航。
 
 <div align="center">
-  <img src="demo/locking.gif" width="1280px" />
+  <img src="2project/demo/locking.gif" width="1280px" />
 </div>
 
 # 3.article  
