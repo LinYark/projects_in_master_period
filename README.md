@@ -62,7 +62,7 @@ Locking 1Throwing effect
   <img src="2project/demo/Throwing.gif" width="320px" />
 </div>
 
-2.2Throwing effect 程序全程跟踪检测效果演示
+2.2Program running effect 程序全程跟踪检测效果演示
 无人机随航线飞行至目标上方50米区域寻找目标，找到目标后，向目标飞行，利用检测与跟踪的耦合算法持续锁定打击目标，飞至上方完成抛投或定点打击后返航。
 
 <div align="center">
