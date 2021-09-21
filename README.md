@@ -6,11 +6,12 @@ Graduate stage part of the works introduction, in order to let HR or readers can
 以下会介绍：
 ```
 1project
-智能自动化焊接生产线视觉系统
+    智能自动化焊接生产线视觉系统
 2project
-无人机定点抛投打击系统
+    无人机定点抛投打击系统
 3article
-SiamDMA
+    SiamDMA:Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT Tracking
+    双级多域孪生双模跟踪器
 ```
 
 # 1.project  
@@ -73,7 +74,7 @@ SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT T
 
 应用于双模态跟踪的双级多域融合注意力孪生网络
 ```
-Siamese Dual-level And Multi-domain Fusion Attention Networkfor RGBT Tracking
+SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Networkfor RGBT Tracking
 双级多域孪生双模跟踪器简介：
     本方法基于 linux 系统，pytorch 框架，旨在引入红外模态提升跟踪器性能。
     1.依照 self-attention，适配在跨模态跨时域场景，形成跨模孪生 attention，微调跟踪模板，实现特征增强。
