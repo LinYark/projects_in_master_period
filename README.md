@@ -86,11 +86,15 @@ SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Networkfor RGBT Tr
 
 3.1Examples of SiamDMA outputs.SiamDMA的跟踪效果
 
-1.section1片段1
+1.section1
+
+片段1
 <div align="center">
   <img src="3article/siamdma/demo/Section1.gif" width="1280px" />
 </div>
-2.section2片段2
+2.section2
+
+片段2
 <div align="center">
   <img src="3article/siamdma/demo/Section2.gif" width="1280px" />
 </div>
