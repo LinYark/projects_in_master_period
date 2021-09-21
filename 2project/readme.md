@@ -58,17 +58,17 @@
 # Processing analysis具体模块流程、原理分析
 具体模块流程、原理分析
 
-# Processing1.Flow chart of each part整体及各部分流程图
-包含模块
+# Processing1.Modules and Flow chart 模块及流程图
+1.1包含模块
 <div align="center">
   <img src="demo/modules.png" width="1280px" />
 </div>
 
-简要流程图
+1.2简要流程图
 <div align="left">
   <img src="demo/mainprocess.png" width="1280px" />
 </div>
-具体流程图
+1.3具体流程图
 <div align="left">
   <img src="demo/allprocess.png" width="640px" />
 </div>
