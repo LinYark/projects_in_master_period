@@ -131,6 +131,7 @@ I've been studying LeetCode for a while and have ignored the importance of githu
 在9月18日面试大华公司的时候，HR告诉我如果只有一些示意信息，就不用填写GITHUB链接。
 因为论文写完再8月中旬了，刷题起步太晚，就之前一段时间基本都在刷leetcode，忽略了github内容对面试的重要性。感谢不知名的大华HR的提醒。所以我决定今天充实我的内容。
 
+#0919-0922
 
-
+尽量补充完毕了三个项目内容。
 
