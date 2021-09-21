@@ -107,7 +107,7 @@ The following will illustrate all the steps
   <img src="demo/Throwing.gif" width="320px" />
 </div>
 
-# step2.2Throwing attack effect定点打击效果
+# step2.Locking attack effect定点打击效果
 程序控制无人机飞至目标上方，并快速降落至目标的定点打击效果
 
 <div align="center">
