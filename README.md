@@ -5,6 +5,7 @@ Graduate stage part of the works introduction, in order to let HR or readers can
 
 以下会介绍：
 ```
+1project
 智能自动化焊接生产线视觉系统项目简介：
     本系统基于 Linux 系统、Qt 平台，旨在全自动完成金属工件的自动化焊接。
     1.多个相机并行情况下，利用图像分割算法、边缘检测算法提取工件 2D 特征位置。
@@ -12,6 +13,7 @@ Graduate stage part of the works introduction, in order to let HR or readers can
     3.在该坐标系下对各个时间戳拍摄到的点云按连通方式合并，获取单工件的特征点云。
     4.应用字符识别提取工件名称，获取库中对应工件的对应真实点云。
     5.最后对真实与拍摄的点云进行配准，求取工件的焊接部位真实位置。
+2project
 无人机定点抛投打击系统项目简介：
         本系统基于 Linux 系统、Qt 平台，旨在全自动完成对目标无人化远程打击。
         1.无人机携带 TX2 核心板和 Realsense 相机，约定串口协议与无人机飞控通信。
@@ -19,6 +21,7 @@ Graduate stage part of the works introduction, in order to let HR or readers can
         2.1 通过串口收 GPS、姿态信息，计算目标的重定位防抖结果，再通过串口发出结果。
         3.在低处，二次检测提取对象的细节部位，通过检测、跟踪耦合算法锁定打击对象。
         3.1 通过 Realsense 相机获取深度图修正定位距离，转发飞控。
+article3
 SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Networkfor RGBT Tracking
 双级多域孪生双模跟踪器简介：
        本方法基于 linux 系统，pytorch 框架，旨在引入红外模态提升跟踪器性能。
