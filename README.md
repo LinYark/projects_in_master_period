@@ -21,7 +21,7 @@ Graduate stage part of the works introduction, in order to let HR or readers can
         2.1 通过串口收 GPS、姿态信息，计算目标的重定位防抖结果，再通过串口发出结果。
         3.在低处，二次检测提取对象的细节部位，通过检测、跟踪耦合算法锁定打击对象。
         3.1 通过 Realsense 相机获取深度图修正定位距离，转发飞控。
-article3
+3article
 SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Networkfor RGBT Tracking
 双级多域孪生双模跟踪器简介：
        本方法基于 linux 系统，pytorch 框架，旨在引入红外模态提升跟踪器性能。
