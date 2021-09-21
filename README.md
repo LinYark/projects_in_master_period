@@ -3,6 +3,8 @@ Graduate stage part of the works introduction, in order to let HR or readers can
 
 毕业阶段部分作品介绍，为了让HR或者读者可以简单的了解一下我。
 
+Email: he_fengchen@qq.com
+
 以下会介绍：
 ```
 1project
@@ -133,5 +135,5 @@ I've been studying LeetCode for a while and have ignored the importance of githu
 
 #0919-0922
 
-尽量补充完毕了三个项目内容。
+尽我所能爆肝补充了三个项目内容。后面在找工作期间，会通过与面试官的指导交流更新。
 
