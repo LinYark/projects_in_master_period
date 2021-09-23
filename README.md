@@ -18,7 +18,7 @@ part3:  3article
         双级多域孪生双模跟踪器
 ```
 
-# 1.project  
+# 1.[project]
 Intelligent automated welding production line vision system.
 
 智能自动化焊接生产线视觉系统
