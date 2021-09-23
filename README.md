@@ -45,7 +45,7 @@ Program running process
   <img src="1project/demo/overall processing.gif" width="1280px" />
 </div>
 
-# 2.project  
+# [2project](https://github.com/LinYark/projects_in_master_period/tree/main/2project)  
 UAV Locking Strike System
 
 无人机定点抛投打击系统
