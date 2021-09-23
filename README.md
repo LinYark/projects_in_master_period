@@ -18,7 +18,7 @@ part3:  3article
         双级多域孪生双模跟踪器
 ```
 
-# 1.[project](www.baidu.com)
+# 1.[project](https://github.com/LinYark/projects_in_master_period/tree/main/1project)
 Intelligent automated welding production line vision system.
 
 智能自动化焊接生产线视觉系统
