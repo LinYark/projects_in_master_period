@@ -31,11 +31,11 @@ Intelligent automated welding production line vision system.
     4.应用字符识别提取工件名称，获取库中对应工件的对应真实点云。
     5.最后对真实与拍摄的点云进行配准，求取工件的焊接部位真实位置。
 ```
+1.1Examples of welding. 焊接结果演示
 
+Welding results after the program is run
 <div align="center">
-   1.1Examples of welding. 焊接结果演示
 
-   Welding results after the program is run
   <img src="1project/demo/welding.gif" width="1280px" />
 </div>
 
