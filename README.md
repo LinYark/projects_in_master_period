@@ -74,7 +74,7 @@ Locking Throwing effect
   <img src="2project/demo/locking.gif" width="1280px" />
 </div>
 
-# 3.article  
+# [3article](https://github.com/LinYark/projects_in_master_period/tree/main/3article/siamdma)  
 SiamDMA: Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT Tracking
 
 应用于双模态跟踪的双级多域融合注意力孪生网络
