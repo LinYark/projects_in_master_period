@@ -7,13 +7,13 @@ Email: he_fengchen@qq.com
 
 以下内容分为三部分介绍：
 ```
-part1:   1project
+part1:  1project
         智能自动化焊接生产线视觉系统
         
-part2:   2project
+part2:  2project
         无人机定点抛投打击系统
         
-part3:   3article
+part3:  3article
         SiamDMA:Siamese Dual-level And Multi-domain Fusion Attention Network for RGBT Tracking
         双级多域孪生双模跟踪器
 ```
