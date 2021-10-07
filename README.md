@@ -140,3 +140,6 @@ I've been studying LeetCode for a while and have ignored the importance of githu
 
 尽我所能爆肝补充了三个项目内容。后面在找工作期间，会通过与面试官的指导交流更新。
 
+#1007
+
+最近国庆假期，感觉秋招顿然停下来了，下周接着加油吧for any reader。
