@@ -1,135 +1,134 @@
+# sort
+'''
 
-# SiamDMA 
+//https://www.cnblogs.com/onepixel/articles/7674659.html
+//稳定性只有冒泡和插排稳定
+//https://blog.csdn.net/zhangfuliang123/article/details/72886675
 
-If you have any questions, please email me : he_fengchen@qq.com
+#include<iostream>
+using namespace std;
 
-```
-本方法基于 linux 系统，pytorch 框架，旨在引入红外模态提升跟踪器性能。
-1.依照 self-attention，适配在跨模态跨时域场景，形成跨模孪生 attention，微调跟踪模板，实现特征增强。
-2 增加可见光和红外模态的单独分类约束，避免陷入预训练时的局部最优。
-3.结合分类结果与双模特征，从特征级和决策级共同决定合并特征的重要程度。
-4 通过 anchor-free 方式回归当前帧的目标所在位置。分类使用交叉熵 loss，回归使用iouloss。
-```
+//1冒排序
+//冒泡排序:从左到右，两两大小交换。执行n-1次即可
+void maopao(int* a, size_t n)
+{
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n-1; j++) {
+            if (a[j] > a[j+1]) {
+                swap(a[j], a[j + 1]);
+            }
+        }
+    }
+}
 
-# Examples of SiamDMA outputs.
-1.section1
-<div align="center">
-  <img src="demo/Section1.gif" width="1280px" />
-</div>
-2.section2
-<div align="center">
-  <img src="demo/Section2.gif" width="1280px" />
-</div>
+//2选择排序
+//每次找最小的放到最左边
+void xuanze(int* h, size_t len)
+{
+    for (int i = 0; i < len - 1; ++i)
+    {
+        int minindex = i;
+        for (int j = i + 1; j < len; ++j)
+        {
+            if (h[j] < h[minindex]) minindex = j;
+        }
+        swap(h[i], h[minindex]);
+    }
 
-# Compare with those sota RGBT trackers.
-1.GTOT
-<div align="center">
-  <img src="demo/GTOT1.jpg" width="1280px" />
-  <img src="demo/GTOT2.jpg" width="1280px" />
-</div>
-2.LasHeR
-<div align="center">
-  <img src="demo/lasher.png" width="1280px" />
-</div>
+}
 
-# The structures of SIAMDMA
-1.The overall structure of SIAMDMA
-<div align="center">
-  <img src="demo/SiamDMA.png" width="1280px" />
-</div>
+//3插入排序
+//插入排序：从左向右遍历，每次把当前的往前推到放到它该在的位置
+void InsertSort(int* a, size_t n)
+{
+    for (int i = 1; i < n; i++) {
+        for (int j = i; j > 0; j--) {
+            if (a[j] < a[j-1]) {
+                swap(a[j], a[j - 1]);
+            }
+            else {
+                break;
+            }
 
-2.Cross Domain Siamese Attention Module
-<div align="center">
-  <img src="demo/CrossDomainModule.png" width="1280px" />
-</div>
+        }
+    }
 
-3.Dual-Level Fusion Attention Module
-<div align="center">
-  <img src="demo/DualLevelModule.png" width="1280px" />
-</div>
+}
 
+//4.希尔排序
+//每次分n/2,n/4...组，对每组插排
+void ShellSort(int* h, size_t len)
+{
 
+    for (int div = len / 2; div >= 1; div /= 2)
+        for (int k = 0; k < div; ++k)
+            for (int i = div + k; i < len; i += div)
+                for (int j = i; j > k; j -= div)
+                    if (h[j] < h[j - div]) swap(h[j], h[j - div]);
+                    else break;
+    return;
+}
 
-# Quick Start: Using SiamDMA
-Siamdma.pdf is the original version of the paper.
+//5快速排序
+//小的放左边，大的放右边，找小的大的，交换。
+//！因为边界左边小右边大，所以让右方向查找往前迈一步，故需要先找右边后找左边
+//void qs(int* a, int left, int right) {
+//    int i = left, j = right, key = a[left];
+//    //递归故一定记得边界
+//    if (i >= j)return;
+//    
+//    while (i<j)
+//    {
+//        while (i < j && a[j] >= key) {
+//            j--;
+//        }
+//        //最终交汇的时候i和j只有可能是相等
+//        //！因为最终全部交完完成后，边界左边小右边大，所以应该是使用i-j交汇（相等）之前的i值，如果i想前迈一步，数值就加了个1，如果往前迈一步，数值就直接能拿到。
+//        //另外，数值就加了个1再返回去可能会越界，不如直接拿！，所有右j往前迈一步
+//        while (i < j && a[i] <= key) {
+//            i++;
+//        }
+//        swap(a[i], a[j]);
+//    }
+//    swap(a[left], a[i]);
+//    qs(a, left, i - 1);
+//    qs(a, i + 1, right);
+//
+//    //跟这个一模一样，因为i=j
+//    //swap(a[left], a[j]);
+//    //qs(a, left, j - 1);
+//    //qs(a, j + 1, right);
+//}
 
-# 1.Run on the latest version of pytorch
+void qs(int *a,int l,int r ) {
+    int i, j,key;
+    i = l; j = r; key = a[l];
+    if (i >= j) { return; }
+    while (i < j)
+    {
+        while (i < j && a[j]>=key)
+        {
+            j--;
 
-# 2.prepare training dataset
-
-1.Put it in any folder, as for me , I named one folder as dbpath。
-The folder structure is：
-```
-    dbpath  /   dataset1
-            /   dataset2
-            /   ...
-```
-
-```
-[got10k]链接: https://pan.baidu.com/s/1Zd1OnGZeH4koA3z6Usx3Bg  密码: tmjh
-[LASOT]链接: https://pan.baidu.com/s/1BwsAmubB_itmREn3w2V-nQ  密码: qtd6
-[LasHeR_fixed]链接: https://pan.baidu.com/s/1mgwc42LNFZm3bUFVdTGu1g  密码: f2vu
-[rgbt234]链接: https://pan.baidu.com/s/1tFk3ewjwZHQhQ0lkN8KKfw  密码: sl8g
-[GTOT]链接: https://pan.baidu.com/s/11xz-v2Q1EvJ-7vtp6ugd3Q  密码: we0u
-```
-
-
-2.Data standardization processing
-Use the following python files to complete processing
-Pay attention to modifying input and output in those files
-```
-.(siamdma)/data/prepareDataStanderd /prepareDATAGOT10K.py
-                                     preparedataGTOT.py
-                                     ...
-                                
-python data/prepareDataStanderd/prepareDATAGOT10K.py
-                                ...
-
-```
-
-
-
-
-# 3.prepare pretrain_models 
-```
-[pretrain_models]链接: https://pan.baidu.com/s/1Xqp38CrO5NZ-RSITONUyNg  密码: t7ar
-```
-
-put it in ./ 
-
-
-# 4.training
-use ./bin/train.py to train our model
-Pay attention to modifying the dbpath and jsonpath  
-```
-python bin/train.py
-```
-You can modify warmUp mode and the corresponding learning rate
-
-
-# 5.eval
-```
-python bin/eval.py
-```
-There is a simple hyperparameter search.
-
-If you need matlab evaluation version of GTOT, RGBT234, LasHeR, please email me.
-
-Note that if you need the latest review version of LasHeR, please contact the original author [here](https://arxiv.org/pdf/2104.13202.pdf). I don't know if the original author added any new changes.
+        }
+        while (i < j && a[i] <= key)
+        {
+            i++;
+        }
+        swap(a[i], a[j]);
+    }
+    swap(a[l], a[j]);
+    qs(a, l,j-1);
+    qs(a, j + 1,r);
+}
 
 
+//
+int main()
+{
+	int a[] = { 4,7,4 ,2,5,8,3,6,9,2,2};
+	qs(a, 0, 10);
+	return 0;
+}
 
-# 6.test
-It will be updated soon, before October.
-I am looking for a job recently, so I didn't make up this link.
-
-# 7.logger & lmdb & visdom 
-They are already embedded in the framework
-
-logger in ./util/funcs.py
-
-lmdb in each prepareDataStanderd files
-
-visdom in ./util/funcs.py
-
-You can adjust the program to use them
+'''
