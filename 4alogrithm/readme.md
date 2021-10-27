@@ -1,5 +1,5 @@
 # sort
-'''
+```
 
 //https://www.cnblogs.com/onepixel/articles/7674659.html
 //稳定性只有冒泡和插排稳定
@@ -131,4 +131,4 @@ int main()
 	return 0;
 }
 
-'''
+```
